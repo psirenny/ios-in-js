@@ -2,6 +2,7 @@
   "scope": {
     "allowed": [
       "chore",
+      "ci",
       "ios_component_navigation-bar",
       "ios_component_status-bar",
       "ios_font",
