@@ -1,0 +1,26 @@
+{
+  "scope": {
+    "allowed": [
+      "chore",
+      "ios_component_navigation-bar",
+      "ios_component_status-bar",
+      "ios_font",
+      "ios_typography",
+      "release"
+    ],
+    "validate": true
+  },
+  "types": {
+    "build",
+    "chore",
+    "ci",
+    "docs",
+    "feat",
+    "fix",
+    "perf",
+    "refactor",
+    "revert",
+    "style",
+    "test"
+  }
+}
