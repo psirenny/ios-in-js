@@ -1,8 +1,8 @@
+*.log
 .eslintignore
 .eslintrc.json
 .flowconfig
 .nyc_output
-*.log
 build.js
 coverage
 test

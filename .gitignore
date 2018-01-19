@@ -1,5 +1,5 @@
-.nyc_output
 *.log
+.nyc_output
 coverage
 lib
 node_modules
