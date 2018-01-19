@@ -1,9 +1,2 @@
-{
-  "plugins": [
-    "transform-flow-strip-types"
-  ],
-  "presets": [
-    "es2015",
-    "stage-0"
-  ]
-}
+lib
+node_modules
