@@ -13,4 +13,5 @@ export { default as componentNavigationBackgroundOpacity } from './component_nav
 export { default as componentNavigationHeight } from './component_navigation-bar/height';
 export { default as componentNavigationHeightMobileLandscape } from './component_navigation-bar/height_mobile_landscape';
 export { default as componentNavigationShadow } from './component_navigation-bar/shadow';
-export { default as componentStatusBarHeight } from './component_status-bar/height';
+export { default as componentStatusBarHeightDefault } from './component_status-bar/height_default';
+export { default as componentStatusBarHeightIPhoneX } from './component_status-bar/height_iphone-x';
