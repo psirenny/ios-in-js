@@ -57,16 +57,16 @@ const build = (cb) => {
           moduleId !== srcPath
         );
 
-        const bundleCreateOpts = {
-          entry: srcPath,
+        const bundleReadOpts = {
           external: bundleExternal,
+          input: srcPath,
           plugins: bundlePlugins,
         };
 
         const bundleWriteOpts = {
-          dest: libPath,
+          file: libPath,
           format: 'es',
-          sourceMap: true,
+          sourcemap: true,
         };
 
         return asyncParallel([
@@ -76,7 +76,7 @@ const build = (cb) => {
               .then(() => done2())
           ),
           done2 => (
-            rollupBundle(bundleCreateOpts)
+            rollupBundle(bundleReadOpts)
               .catch(err => done2(err))
               .then((bundle) => (
                 bundle.write(bundleWriteOpts)
