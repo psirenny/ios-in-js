@@ -41,7 +41,7 @@
     "rollup-plugin-node-resolve": "3.0.2",
     "standard-version": "4.3.0",
     "validate-commit-msg": "2.14.0",
-    "webpack": "3.11.0",
+    "webpack": "4.24.0",
     "webpack-dev-server": "2.11.1"
   },
   "homepage": "https://github.com/psirenny/ios-in-js",
