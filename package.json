@@ -28,7 +28,7 @@
     "flow-bin": "0.64.0",
     "fs-extra": "5.0.0",
     "html-webpack-plugin": "2.30.1",
-    "husky": "0.15.0-rc.2",
+    "husky": "2.2.0",
     "intl": "1.2.5",
     "klaw": "2.1.1",
     "lodash": "4.17.5",
