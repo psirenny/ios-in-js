@@ -7,7 +7,7 @@
     "url": "https://github.com/psirenny/ios-in-js/issues"
   },
   "devDependencies": {
-    "async": "2.6.0",
+    "async": "3.2.2",
     "babel-cli": "6.26.0",
     "babel-core": "6.26.0",
     "babel-eslint": "8.1.0",
